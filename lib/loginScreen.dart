@@ -32,9 +32,7 @@ class _loginState extends State<login> {
                 padding:  EdgeInsets.all(sceenWidthInfo/25),
                 child: Text("öğrenciden", style: TextStyle(fontSize: sceenWidthInfo/10, color: Colors.indigo),),
               ),
-              SizedBox(
-                  width: sceenWidthInfo/1.5,
-                  child: Image.asset("asset/picture/login_page.png")),
+              
               Form(
                 key: formKey,
                 child: Column(
